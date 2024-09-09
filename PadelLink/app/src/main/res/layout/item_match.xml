@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="match"
+            type="ui.model.Match" />
+        <variable
+            name="viewModel"
+            type="ui.viewModel.JoinMatchViewModel" />
+        <variable
+            name="caca"
+            type="ui.viewModel.HomeScreenViewModel" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_marginTop="16dp"
+        android:elevation="4dp"
+        app:cardCornerRadius="16dp"
+        app:cardBackgroundColor="@color/white">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp">
+
+            <TextView
+                android:id="@+id/textViewLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@{match.location}"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewLevel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{String.format(@string/level_label, match.matchLevel)}'
+                android:layout_below="@id/textViewLocation"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewDetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{String.format(@string/match_details_label, match.matchDetails)}'
+                android:layout_below="@id/textViewLevel"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{String.format(@string/date_label, match.matchDate)}'
+                android:layout_below="@id/textViewDetails"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{String.format(@string/start_time_label, match.matchStartingTime)}'
+                android:layout_below="@id/textViewDate"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/textViewPlayers"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text='@{String.format(@string/players_label, match.players.size())}'
+                android:layout_below="@id/textViewTime"
+                android:layout_marginTop="4dp"
+                android:textColor="@color/black" />
+
+
+            <Button
+                android:id="@+id/buttonJoinMatch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/join_match"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="@color/white"
+                android:onClick="@{() -> viewModel.onJoinMatchClicked(match.id)}"
+                android:visibility='@{viewModel != null ? android.view.View.VISIBLE : android.view.View.GONE}' />
+
+
+            <Button
+                android:id="@+id/buttonLeaveMatch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/leave_match"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:backgroundTint="@color/purple_500"
+                android:textColor="@color/white"
+                android:onClick="@{() -> caca.leaveMatch(match.id)}"
+                android:visibility='@{viewModel == null ? android.view.View.VISIBLE : android.view.View.GONE}' />
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+</layout>

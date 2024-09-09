@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "259279190792",
+    "project_id": "padellink-27f0e",
+    "storage_bucket": "padellink-27f0e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:259279190792:android:d22e4c5af73b48e45c8abd",
+        "android_client_info": {
+          "package_name": "com.example.padellink"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "259279190792-57thu9hobr7740dpk92e4c9mub515ufc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtwTYrSZU7MIi-463uIUeWc8zCp99j5cQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "259279190792-57thu9hobr7740dpk92e4c9mub515ufc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,128 @@
+<resources>
+    <string name="app_name">PadelLink</string>
+    <string name="Profile">Profile\n</string>
+    <string name="Home">"Home "</string>
+    <string name="create_match">Create Match</string>
+    <string name="search_for_a_match_or_a_friend">Search for a match or a friend</string>
+    <string name="join_match">Join</string>
+    <string name="available_matches">Available Matches</string>
+    <string-array name="gender_array">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+    <string name="help_text">
+    <![CDATA[
+    <p>Welcome to PadelLink, your ultimate padel companion app. This guide will help you navigate through all the features and make the most out of your padel experience.</p>
+
+    <h3>Creating and Joining a Game</h3>
+    <p><h5>To create a game:</h5></p>
+    <ul>
+        <li> Go to the <b>Create Game</b> section from the main menu.</li>
+        <li> Fill in the details such as time, date, and location.</li>
+        <li> Invite players from your contact list or the community.</li>
+        <li> Once all details are set, click <b>Create</b> to schedule your game.</li>
+    </ul>
+    <p><h5>To join a game:</h5></p>
+    <ul>
+        <li> Navigate to the <b>Find Games</b> section from the main menu.</li>
+        <li> Browse through the list of available games.</li>
+        <li> Select the game you wish to join and click <b>Join</b>.</li>
+    </ul>
+
+    <h3>Leaving a Game</h3>
+    <ul>
+        <li> Go to the <b>My Games</b> section from the main menu.</li>
+        <li> Select the game you wish to leave.</li>
+        <li> Click the <b>Leave Game</b> button.</li>
+    </ul>
+
+    <h3>Searching for Players</h3>
+    <ul>
+        <li> Navigate to the <b>Home</b> screen.</li>
+        <li> Use the search bar at the top of the screen.</li>
+        <li> Enter the full name of the player you are looking for.</li>
+        <li> Select the player from the search results to view their profile or send a match request.</li>
+    </ul>
+
+    <h3>Player Profiles</h3>
+    <p>Each player has a profile that showcases their skill level, playing style, and achievements. You can view your profile and others to get a better understanding of potential partners or opponents.</p>
+
+
+    <h3>Community and Events</h3>
+    <p>Connect with other players, form doubles partnerships, and join local events and tournaments through the <b>Community</b> section. Stay updated with the latest events and enhance your padel network.</p>
+
+    <h3>Support</h3>
+    <p>If you need further assistance, please visit the <b>Support</b> section or contact our support team directly through the app.</p>
+
+    <p>Thank you for choosing PadelLink! We hope you have an enjoyable padel experience.</p>
+    ]]>
+
+</string>
+
+    <string name="about_text">
+    <![CDATA[
+    Welcome to PadelLink, the ultimate companion for padel enthusiasts. Our mission is to enhance your padel experience by providing a comprehensive platform designed to connect players, facilitate match scheduling, and streamline court reservations.
+
+    <p><b><h1>Our Features:</h1></b></p>
+    <p>&#8226; <b>Player Profiles:</b> Create and customize your personal profile, showcasing your skill level, playing style, and achievements.</p>
+    <p>&#8226; <b>Match Scheduling:</b> Effortlessly schedule matches with friends or new partners, with easy-to-use tools for coordinating times and locations.</p>
+    <p>&#8226; <b>Court Reservations:</b> Reserve courts at your favorite clubs directly through the app, ensuring you always have a place to play.</p>
+    <p>&#8226; <b>Community Building:</b> Connect with other players, form doubles partnerships, and join local events and tournaments.</p>
+
+    Whether you&#8217;re looking to improve your game, find new playing partners, or simply enjoy the sport more, our app is here to help.
+
+    Join our growing community of padel enthusiasts and take your game to the next level.
+
+    <p>Thank you for choosing PadelLink! Let&#8217;s play!
+
+    <p><b>App made by: Ricardo Vieira</b>]]>
+</string>
+
+    <string name="language">Language</string>
+    <string name="english">English</string>
+    <string name="portuguese">Portuguese</string>
+    <string name="spanish">Spanish</string>
+    <string name="about_padellink">About PadelLink</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="birthdate_dd_mm_yyyy">Birthdate (dd/mm/yyyy)</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="create_account">Create Account</string>
+    <string name="location_club_name">Location/Club Name</string>
+    <string name="match_details">Match Details</string>
+    <string name="match_date">Match Date</string>
+    <string name="match_starting_time">Match Starting Time</string>
+    <string name="sign_in">Sign In</string>
+    <string name="help_guide">Help Guide</string>
+    <string name="search_user">Search user</string>
+    <string name="search">Search</string>
+    <string name="your_next_matches">Your Next Matches:</string>
+    <string name="leave_match">Leave</string>
+    <string name="help">Help</string>
+    <string name="about">About</string>
+    <string name="welcome_message">Welcome Back,</string>
+    <string name="name_label">Name: %s</string>
+    <string name="surname_label">Surname: %s</string>
+    <string name="gender_label">Gender: %s</string>
+    <string name="birthdate_label">Birthdate: %s</string>
+    <string name="email_label">Email: %s</string>
+    <string name="level_label">Level: %s</string>
+    <string name="match_details_label">Match Details: %s</string>
+    <string name="date_label">Date: %s</string>
+    <string name="start_time_label">Starts at: %s</string>
+    <string name="players_label">Players: %s/4</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="join_match_home">Join Match</string>
+
+
+        <string name="name">Name:</string>
+        <string name="surname">Surname:</string>
+        <string name="gender">Gender:</string>
+        <string name="birthdate">Birthdate:</string>
+        <string name="email_">Email:</string>
+
+
+
+
+</resources>

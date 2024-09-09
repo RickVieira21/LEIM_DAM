@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <data>
+        <variable
+            name="viewModel"
+            type="ui.viewModel.EmailPasswordViewModel" />
+    </data>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/background_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/padelink_logo2" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp"
+            android:layout_alignParentBottom="true"
+            android:background="@android:color/transparent">
+
+            <EditText
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:text="@={viewModel.email}"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:layout_marginBottom="8dp"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/password"
+                android:inputType="textPassword"
+                android:text="@={viewModel.password}"
+                android:background="@android:color/white"
+                android:textColor="@android:color/black"
+                android:padding="10dp"
+                android:layout_marginBottom="16dp"/>
+
+            <Button
+                android:id="@+id/button_sign_in"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/sign_in"
+                android:onClick="@{() -> viewModel.signIn()}" />
+
+            <Button
+                android:id="@+id/button_create_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/create_account"
+                android:onClick="@{() -> viewModel.onCreateAccountClicked()}" />
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

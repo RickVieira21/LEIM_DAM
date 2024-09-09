@@ -1,0 +1,129 @@
+<resources>
+    <string name="app_name">PadelLink</string>
+    <string name="Profile">Perfil\n</string>
+    <string name="Home">"Inicio "</string>
+    <string name="create_match">Crear Partido</string>
+    <string name="search_for_a_match_or_a_friend">Buscar un partido o un amigo</string>
+    <string name="join_match">Participar</string>
+    <string name="available_matches">Partidos Disponibles</string>
+    <string-array name="gender_array">
+        <item>Masculino</item>
+        <item>Femenino</item>
+    </string-array>
+    <string name="help_text">
+    <![CDATA[
+    <p>Bienvenido a PadelLink, tu aplicación de compañerismo definitiva para el pádel. Esta guía te ayudará a navegar por todas las funciones y aprovechar al máximo tu experiencia de pádel.</p>
+
+    <h3>Crear y Unirse a un Partido</h3>
+    <p><h5>Para crear un partido:</h5></p>
+    <ul>
+        <li> Ve a la sección <b>Crear Partido</b> desde el menú principal.</li>
+        <li> Rellena los detalles como hora, fecha y ubicación.</li>
+        <li> Invita a jugadores de tu lista de contactos o de la comunidad.</li>
+        <li> Una vez que todos los detalles estén listos, haz clic en <b>Crear</b> para programar tu partido.</li>
+    </ul>
+    <p><h5>Para unirse a un partido:</h5></p>
+    <ul>
+        <li> Navega a la sección <b>Buscar Partidos</b> desde el menú principal.</li>
+        <li> Explora la lista de partidos disponibles.</li>
+        <li> Selecciona el partido al que deseas unirte y haz clic en <b>Unirse</b>.</li>
+    </ul>
+
+    <h3>Salir de un Partido</h3>
+    <ul>
+        <li> Ve a la sección <b>Mis Partidos</b> desde el menú principal.</li>
+        <li> Selecciona el partido del que deseas salir.</li>
+        <li> Haz clic en el botón <b>Salir del Partido</b>.</li>
+    </ul>
+
+    <h3>Buscar Jugadores</h3>
+    <ul>
+        <li> Navega a la pantalla <b>Inicio</b>.</li>
+        <li> Usa la barra de búsqueda en la parte superior de la pantalla.</li>
+        <li> Ingresa el nombre completo del jugador que estás buscando.</li>
+        <li> Selecciona al jugador de los resultados de búsqueda para ver su perfil o enviar una solicitud de partido.</li>
+    </ul>
+
+    <h3>Perfiles de Jugadores</h3>
+    <p>Cada jugador tiene un perfil que muestra su nivel de habilidad, estilo de juego y logros. Puedes ver tu perfil y los de otros para comprender mejor a posibles compañeros o rivales.</p>
+
+    <h3>Comunidad y Eventos</h3>
+    <p>Conéctate con otros jugadores, forma parejas de dobles y únete a eventos y torneos locales a través de la sección <b>Comunidad</b>. Mantente al día con los últimos eventos y amplía tu red de pádel.</p>
+
+    <h3>Soporte</h3>
+    <p>Si necesitas más ayuda, visita la sección de <b>Soporte</b> o contacta a nuestro equipo de soporte directamente a través de la aplicación.</p>
+
+    <p>Gracias por elegir PadelLink! Esperamos que disfrutes de una experiencia de pádel agradable.</p>
+    ]]>
+    </string>
+
+    <string name="about_text">
+    <![CDATA[
+    Bienvenido a PadelLink, el compañero definitivo para los entusiastas del pádel. Nuestra misión es mejorar tu experiencia de pádel proporcionando una plataforma integral diseñada para conectar jugadores, facilitar la programación de partidos y simplificar la reserva de pistas.
+
+    <p><b><h1>Nuestras Funcionalidades:</h1></b></p>
+    <p>&#8226; <b>Perfiles de Jugadores:</b> Crea y personaliza tu perfil personal, mostrando tu nivel de habilidad, estilo de juego y logros.</p>
+    <p>&#8226; <b>Programación de Partidos:</b> Programa partidos con amigos o nuevos compañeros fácilmente, con herramientas fáciles de usar para coordinar horarios y ubicaciones.</p>
+    <p>&#8226; <b>Reserva de Pistas:</b> Reserva pistas en tus clubes favoritos directamente a través de la aplicación, asegurándote de que siempre tengas un lugar para jugar.</p>
+    <p>&#8226; <b>Construcción de Comunidad:</b> Conéctate con otros jugadores, forma parejas de dobles y únete a eventos y torneos locales.</p>
+
+    Ya sea que estés buscando mejorar tu juego, encontrar nuevos compañeros de juego o simplemente disfrutar más del deporte, nuestra aplicación está aquí para ayudarte.
+
+    Únete a nuestra creciente comunidad de entusiastas del pádel y lleva tu juego al siguiente nivel.
+
+    <p>Gracias por elegir PadelLink! ¡Vamos a jugar!
+
+    <p><b>Aplicación hecha por: Ricardo Vieira</b>]]>
+    </string>
+
+    <string name="language">Idioma</string>
+    <string name="english">Inglés</string>
+    <string name="portuguese">Portugués</string>
+    <string name="spanish">Español</string>
+    <string name="about_padellink">Acerca de PadelLink</string>
+    <string name="first_name">Nombre</string>
+    <string name="last_name">Apellido</string>
+    <string name="birthdate_dd_mm_yyyy">Fecha de Nacimiento (dd/mm/yyyy)</string>
+    <string name="email">Correo Electrónico</string>
+    <string name="password">Contraseña</string>
+    <string name="create_account">Crear Cuenta</string>
+    <string name="location_club_name">Ubicación/Nombre del Club</string>
+    <string name="match_details">Detalles del Partido</string>
+    <string name="match_date">Fecha del Partido</string>
+    <string name="match_starting_time">Hora de Inicio del Partido</string>
+    <string name="sign_in">Iniciar Sesión</string>
+    <string name="help_guide">Guía de Ayuda</string>
+    <string name="search_user">Buscar Usuario</string>
+    <string name="search">Buscar</string>
+    <string name="your_next_matches">Tus Próximos Partidos:</string>
+    <string name="leave_match">Salir</string>
+    <string name="help">Ayuda</string>
+    <string name="about">Acerca de</string>
+    <string name="welcome_message">¡Hola de nuevo,</string>
+    <string name="name_label">Nombre: %s</string>
+    <string name="surname_label">Apellido: %s</string>
+    <string name="gender_label">Género: %s</string>
+    <string name="birthdate_label">Fecha de Nacimiento: %s</string>
+    <string name="email_label">Correo Electrónico: %s</string>
+    <string name="level_label">Nivel: %s</string>
+    <string name="match_details_label">Detalles del Partido: %s</string>
+    <string name="date_label">Fecha: %s</string>
+    <string name="start_time_label">Comienza a las: %s</string>
+    <string name="players_label">Jugadores: %s/4</string>
+    <string name="upload_photo">Subir Foto</string>
+    <string name="join_match_home">Unirse al Partido</string>
+
+
+        <string name="name">Nombre:</string>
+        <string name="surname">Apellido:</string>
+        <string name="gender">Género:</string>
+        <string name="birthdate">Fecha de Nacimiento:</string>
+        <string name="email_">Correo Electrónico:</string>
+
+
+
+
+
+
+
+</resources>
